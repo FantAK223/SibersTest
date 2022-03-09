@@ -1,0 +1,12 @@
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\bin\Debug\net6.0\ProjectEditor.Domain.deps.json
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\bin\Debug\net6.0\ProjectEditor.Domain.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\bin\Debug\net6.0\ref\ProjectEditor.Domain.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\bin\Debug\net6.0\ProjectEditor.Domain.pdb
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.csproj.AssemblyReference.cache
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.AssemblyInfoInputs.cache
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.AssemblyInfo.cs
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ref\ProjectEditor.Domain.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.Domain\obj\Debug\net6.0\ProjectEditor.Domain.pdb

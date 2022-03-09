@@ -1,0 +1,17 @@
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.csproj.AssemblyReference.cache
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.AssemblyInfoInputs.cache
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.AssemblyInfo.cs
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.DomainEntityFramework.deps.json
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.DomainEntityFramework.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ref\ProjectEditor.DomainEntityFramework.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.DomainEntityFramework.pdb
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.Config.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.Config.pdb
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.csproj.CopyComplete
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ref\ProjectEditor.DomainEntityFramework.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\obj\Debug\net6.0\ProjectEditor.DomainEntityFramework.pdb
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.Domain.dll
+C:\Users\fanta\work\SibersTest\ProjectEditor\ProjectEditor.DomainEntityFramework\bin\Debug\net6.0\ProjectEditor.Domain.pdb

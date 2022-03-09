@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RS3VDkUNpOcoO8u5HbN9OcbRz2hkOULjvCz9791oEJIwcIuvJYX34/I+Y4GDRGB0d24pvYmY09WtMOxBuMwVsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fanta\\work\\SibersTest\\ProjectEditor\\ProjectEditor.Domain\\ProjectEditor.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fanta\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
+    "C:\\Users\\fanta\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\fanta\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\fanta\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

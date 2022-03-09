@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0242d1fb-4654-473a-baaf-bfbfd47a7ce0": {
+      "ProjectGuid": "0242d1fb-4654-473a-baaf-bfbfd47a7ce0",
+      "DisplayName": "ProjectEditor.Web",
+      "ColorIndex": 0
+    },
+    "1cd41a49-8a80-4c0b-9c77-56b22c5b7bf5": {
+      "ProjectGuid": "1cd41a49-8a80-4c0b-9c77-56b22c5b7bf5",
+      "DisplayName": "ProjectEditor.Domain",
+      "ColorIndex": 1
+    },
+    "7d2eeae1-f31b-4c6d-bb7c-31ecfe593a8f": {
+      "ProjectGuid": "7d2eeae1-f31b-4c6d-bb7c-31ecfe593a8f",
+      "DisplayName": "ProjectEditor.DomainEntityFramework",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "9619aff0-eea9-4df3-b180-92923ad0730b": {
+      "ProjectGuid": "9619aff0-eea9-4df3-b180-92923ad0730b",
+      "DisplayName": "ProjectEditor.Config",
+      "ColorIndex": 3
+    },
+    "2624ab16-ea96-4bca-964e-e0cf7f540868": {
+      "ProjectGuid": "2624ab16-ea96-4bca-964e-e0cf7f540868",
+      "DisplayName": "ProjectEditor.ApplicationServices",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
