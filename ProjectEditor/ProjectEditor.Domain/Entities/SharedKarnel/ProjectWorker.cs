@@ -14,14 +14,14 @@ namespace ProjectEditor.Domain.Entities.SharedKarnel
         private Projects _projects;
         private Workers _workers;
 
-        public ProjectWorker(Guid id, Projects projects, Workers workers)
+        public ProjectWorker(int id, Projects projects, Workers workers)
         {
             Id = id;
             Projects = projects;
             Workers = workers;
         }
 
-        public Guid Id { get; protected set; }
+        public int Id { get; protected set; }
 
         public Projects Projects
         {

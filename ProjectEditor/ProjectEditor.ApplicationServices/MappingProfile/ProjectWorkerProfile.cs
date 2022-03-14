@@ -8,17 +8,17 @@ namespace ProjectEditor.ApplicationServices.MappingProfile
 {
     public sealed class ProjectWorkerProfile : Profile
     {
-        public ProjectWorkerProfile()
+        /*public ProjectWorkerProfile()
         {
             CreateMap<ProjectWorker, ProjectWorkerDTO>()
                 ;
 
-           /* CreateMap<ProjectWorkerDTO, ProjectWorker>()
+            CreateMap<ProjectWorkerDTO, ProjectWorker>()
                 .ForMember(d => d.Projects, x => x.MapFrom<ProjectsResolver>())
                 .ForMember(d => d.Workers, x => x.MapFrom<WorkersResolver>())
-                ;*/
+                ;
         }
-/*
+
         private class ProjectsResolver : IValueResolver<ProjectWorkerDTO, ProjectWorker, Projects>
         {
             public Projects Resolve(ProjectWorkerDTO source, ProjectWorker destination, Projects destMember, ResolutionContext context)

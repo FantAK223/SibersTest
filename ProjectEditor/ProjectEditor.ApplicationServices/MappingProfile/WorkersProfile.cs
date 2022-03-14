@@ -12,18 +12,18 @@ namespace ProjectEditor.ApplicationServices.MappingProfile
         {
             CreateMap<Workers, WorkersDTO>()
                 ;
-/*
-           CreateMap<WorkersDTO, Workers>()
-                .ForMember(d => d.ProjectWorker, x => x.MapFrom<ProjectWorkerResolver>())
-                ;*/
+
+/*            CreateMap<WorkersDTO, Workers>()
+                 .ForMember(d => d.Projects, x => x.MapFrom<ProjectsResolver>())
+                 ;*/
 
         }
 
-        /*private class ProjectWorkerResolver : IValueResolver<WorkersDTO, Workers, ProjectWorker>
+/*        private class ProjectsResolver : IValueResolver<WorkersDTO, Workers, Projects>
         {
-            public ProjectWorker Resolve(WorkersDTO source, Workers destination, ProjectWorker destMember, ResolutionContext context)
+            public Projects Resolve(WorkersDTO source, Workers destination, Projects destMember, ResolutionContext context)
             {
-                return context.Options.CreateInstance<ProjectEditorDbContext>().Set<ProjectWorker>().Find(source.ProjectWorker.Id);
+                return context.Options.CreateInstance<ProjectEditorDbContext>().Set<Projects>().Find(source.Projects.Id);
             }
         }*/
     }

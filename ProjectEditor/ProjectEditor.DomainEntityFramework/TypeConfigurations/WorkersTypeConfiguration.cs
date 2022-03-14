@@ -9,15 +9,12 @@ namespace ProjectEditor.DomainEntityFramework.TypeConfigurations
     {
         public void Configure(EntityTypeBuilder<Workers> builder)
         {
-            builder.Property<Guid>("ProjectId");
+            builder.Property(x => x.Id).IsRequired();
 
-            builder.HasOne(x => x.ProjectWorker)
-                   .WithOne(x => x.Workers)
-                   .HasForeignKey<Workers>("ProjectId")
-                   .IsRequired()
-                   .OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(x => x.Projects)
+                   .WithMany(x => x.Workers);
 
-            builder.ToTable(nameof(Workers), Schemes.Public).HasKey(p => p.Id);
+            builder.ToTable(nameof(Workers), Schemes.Public);
         }
     }
 }

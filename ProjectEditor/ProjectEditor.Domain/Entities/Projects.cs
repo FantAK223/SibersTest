@@ -11,8 +11,8 @@ namespace ProjectEditor.Domain.Entities
     {
         private readonly Action<object, string> lazyLoader;
         private Projects(Action<object, string> lazyLoader) => this.lazyLoader = lazyLoader;
-        private Workers _workers;
         private ProjectWorker _projectWorker;
+        private List<Workers> _workers = new List<Workers>();
 
         public Projects(int id,string nameProject, string clientCompanyName, string creatorCompanyName,
             DateTime startProjectDate, DateTime endProjectDate, int projectPriority, int idProjectDirector)
@@ -44,6 +44,9 @@ namespace ProjectEditor.Domain.Entities
             get => lazyLoader.Load(this, ref _projectWorker);
             protected set => _projectWorker = value;
         }
+
+        public ICollection<Workers> Workers => lazyLoader.Load(this, ref _workers).AsReadOnly();
+
 
     }
 }

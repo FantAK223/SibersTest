@@ -12,12 +12,12 @@ namespace ProjectEditor.ApplicationServices.MappingProfile
             CreateMap<Projects, ProjectsDTO>()
                 ;
 
-           /* CreateMap<ProjectsDTO, Projects>()
+/*            CreateMap<ProjectsDTO, Projects>()
                 .ForMember(d => d.Workers, x => x.MapFrom<WorkersResolver>())
                 ;*/
         }
-/*
-        private class WorkersResolver : IValueResolver<ProjectsDTO, Projects, Workers>
+
+/*        private class WorkersResolver : IValueResolver<ProjectsDTO, Projects, Workers>
         {
             public Workers Resolve(ProjectsDTO source, Projects destination, Workers destMember, ResolutionContext context)
             {

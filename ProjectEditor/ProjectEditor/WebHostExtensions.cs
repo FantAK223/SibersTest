@@ -49,17 +49,17 @@ namespace ProjectEditor.Web
 
                 using (var context = factory.CreateAsApplication())
                 {
-                    /*var worker1 = new Workers(Guid.NewGuid(), "Sergey", "Nikolaev", "Mihailovich", "seregey1990@mail.ru", "staffer", new ProjectWorker(Guid.NewGuid(),))
+                    var worker1 = new Workers(321, "Sergey", "Nikolaev", "Mihailovich", "seregey1990@mail.ru", "staffer");
 
-                    var project1 = new Projects(Guid.NewGuid(), "MachineLearning", "Mizzenit", "Sibers", DateTime.UtcNow, DateTime.UtcNow, 0, worker1);
+                    var project1 = new Projects(12321, "MachineLearning", "Mizzenit", "Sibers", DateTime.UtcNow, DateTime.UtcNow, 0, 3213);
 
 
                     context.Set<Projects>().AddRange(project1);
-                    context.SaveChanges(); 
+                    context.SaveChanges();
 
 
                     context.Set<Workers>().AddRange(worker1);
-                    context.SaveChanges();*/
+                    context.SaveChanges();
 
                 }
             }

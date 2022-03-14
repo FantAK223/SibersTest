@@ -13,7 +13,7 @@ namespace ProjectEditor.Web.Controllers
 
         public ProjectsController(ProjectsService service) => this.service = service;
 
-        [HttpGet]
+        /*[HttpGet]
         public async Task<IActionResult> ProjectWorkers(int idProject)
         {
 
@@ -22,10 +22,11 @@ namespace ProjectEditor.Web.Controllers
             ViewBag.IdProject = idProject;
 
             return View(view);
-        }
+        }*/
 
         // GET: ProjectsController
-        [HttpGet]
+
+        /*[HttpGet]
         public async Task<IActionResult> AddProjectWorker(int idProject)
         {
             if (result == true)
@@ -34,7 +35,7 @@ namespace ProjectEditor.Web.Controllers
             }
 
             return RedirectToAction(nameof(ProjectsController.AddProjectWorker), "Project", new { idProject });
-        }
+        }*/
 
         [HttpPost("add-project")]
         public async Task<IActionResult> Save(ProjectsDTO dto)

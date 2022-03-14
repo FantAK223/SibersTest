@@ -8,7 +8,7 @@ namespace ProjectEditor.ApplicationServices.DTO
 {
     public sealed class ProjectWorkerDTO
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public ProjectsDTO Projects { get; set; }
         public WorkersDTO Workers { get; set; }
     }

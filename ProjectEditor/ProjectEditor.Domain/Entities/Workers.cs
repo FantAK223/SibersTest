@@ -9,10 +9,10 @@ namespace ProjectEditor.Domain.Entities
         private readonly Action<object, string> lazyLoader;
         private Workers(Action<object, string> lazyLoader) => this.lazyLoader = lazyLoader;
         private ProjectWorker _projectWorker;
-        private Projects _projects;
+        private List<Projects> _projects = new List<Projects>();
 
-        public Workers(Guid id, string workerName, string workerSurname,
-            string workerPatronymic, string workerEmail, string workerRole, ProjectWorker projectWorker)
+        public Workers(int id, string workerName, string workerSurname,
+            string workerPatronymic, string workerEmail, string workerRole)
         {
             Id = id;
             WorkerName = workerName;
@@ -20,13 +20,12 @@ namespace ProjectEditor.Domain.Entities
             WorkerPatronymic = workerPatronymic;
             WorkerEmail = workerEmail;
             WorkerRole = workerRole;
-            ProjectWorker = projectWorker;
         }
 
         protected Workers()
         { }
 
-        public Guid Id { get; protected set; }
+        public int Id { get; protected set; }
         public string WorkerName { get; protected set; }
         public string WorkerSurname { get; protected set; }
         public string WorkerPatronymic { get; protected set; }
@@ -39,11 +38,8 @@ namespace ProjectEditor.Domain.Entities
             protected set => _projectWorker = value;
         }
 
-        public Projects Projects
-        {
-            get => lazyLoader.Load(this, ref _projects);
-            protected set => _projects = value;
-        }
+        public ICollection<Projects> Projects => lazyLoader.Load(this, ref _projects).AsReadOnly();
+
 
     }
 }

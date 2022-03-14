@@ -21,15 +21,6 @@ namespace ProjectEditor.ApplicationServices.Services
         // Сервис для получения данных о проектах
         public IQueryable<ProjectsDTO> Get() => mapper.ProjectTo<ProjectsDTO>(context.Set<Projects>());
 
-        public async Task<ProjectsDTO> GetWorkerIdByProjectId(int idProject)
-        {
-            var project = new List<ProjectsDTO>();
-
-                var query = await context.Set<Workers>().Where(w => w.Projects.Id == idProject).ToListAsync();
-                project.AddRange(mapper.Map<IEnumerable<ProjectsDTO>>(query));
-
-            return project.FirstOrDefault();
-        }
 
         // Сервис для добавления нового проекта
         public async Task SaveAsync(ProjectsDTO dto)

@@ -10,8 +10,8 @@ namespace ProjectEditor.DomainEntityFramework.TypeConfigurations
     {
         public void Configure(EntityTypeBuilder<ProjectWorker> builder)
         {
-            builder.Property<Guid>("ProjectId");
-            builder.Property<Guid>("WorkerId");
+            builder.Property<int>("ProjectId");
+            builder.Property<int>("WorkerId");
 
             builder.HasOne(x => x.Workers)
                    .WithOne(x => x.ProjectWorker)
